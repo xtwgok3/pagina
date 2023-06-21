@@ -1,0 +1,116 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(24, 23, 23);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    color: aliceblue;
+    display: contents;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+    background-color: azure;
+    font-size: 25px;
+    margin-left: 200px;
+    align-items: center;
+    display: flex;
+    border-radius: 35%;
+}
+
+nav ul li a:hover {
+    scale: 1.2;
+}
+
+h1 {
+    color: aqua;
+}
+
+p {
+    color: aqua;
+}
+
+.container-nav {
+    background-color: rgb(112, 112, 112);
+    padding-bottom: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px; /* Tamaño deseado del contenedor */
+    height: 300px;
+}
+
+.img-size {
+    margin-left: 20px;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.img-size:hover {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.9);
+}
+
+.img-size {
+    mix-blend-mode: difference;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    position: relative;
+    top: -50px; /* Puedes ajustar este valor según tus necesidades */
+    display: block;
+    margin: 0 auto;
+    font-size: 25px;
+}
+#hh{
+    color: aqua;
+}
